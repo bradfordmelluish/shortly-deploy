@@ -15,7 +15,7 @@ xdescribe('', function() {
 
   beforeEach(function(done) {
     // Log out currently signed in user
-    request(app)
+    request(app) 
       .get('/logout')
       .end(function(err, res) {
 
